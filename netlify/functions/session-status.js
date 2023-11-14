@@ -9,7 +9,7 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY, {
 
 exports.handler = async (request, context) => {
   const session = await stripe.checkout.sessions.retrieve(
-    req.queryStringParameters.session_id
+    request.queryStringParameters.session_id
   );
 
   // res.send({
