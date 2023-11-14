@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6bf46c6e-fe1f-4cd6-b8a3-5636768e0c26/deploy-status)](https://app.netlify.com/sites/stripe-checkout-embedded-quickstart/deploys)
 
-# Stripe Checkout Embedded form quickstart for Netlify)
+# Stripe Checkout Embedded form quickstart (for Netlify)
 
 Demo available [here](https://stripe-checkout-embedded-quickstart.netlify.app/checkout.html)
 
@@ -14,7 +14,7 @@ To use this sample on Netlify from GitHub:
 * Set the following Build settings:
   * Base Directory: leave empty
   * Build Command: leve empty
-  * Publish directory: `public` (don't blame me for the name. I'm keeping it consistent with the sample app)
+  * Publish directory: `public` 
   * Functions directory: leave prefilled value (`netlify/functions`)
 * Click on `Environment Variable` button and add the following environmental variable
   * `STRIPE_PUBLISHABLE_KEY`: your Stripe publishable key
