@@ -9,24 +9,14 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY, {
 const lineItems = [
   {
     price_data: {
-      unit_amount: 2099,
+      unit_amount: 1500,
       currency: 'gbp',
       product_data: {
-        name: 'Meeting Room Booking',
+        name: 'Pro Plan - First Month',
       },
     },
     quantity: 1,
-  },
-  {
-    price_data: {
-      unit_amount: 1099,
-      currency: 'gbp',
-      product_data: {
-        name: 'Desk Booking',
-      },
-    },
-    quantity: 1,
-  },
+  }
 ]
 
 exports.handler = async () => {
