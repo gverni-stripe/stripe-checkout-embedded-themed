@@ -1,10 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6bf46c6e-fe1f-4cd6-b8a3-5636768e0c26/deploy-status)](https://app.netlify.com/sites/stripe-checkout-embedded-quickstart/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1de6ca3d-44cd-4689-b7b4-c67a9f8cf936/deploy-status)](https://app.netlify.com/sites/stripe-checkout-embedded-themed/deploys)
 
 # Stripe Checkout Embedded form quickstart (for Netlify)
 
-Demo available [here](https://stripe-checkout-embedded-quickstart.netlify.app/checkout.html)
-
-This is a netlify deployment for the [Stripe Checkout Embedded form quickstart](https://stripe.com/docs/checkout/embedded/quickstart)
+Demo available [here](https://stripe-checkout-embedded-themed.netlify.app/)
 
 To use this sample on Netlify from GitHub: 
 * Clone the project into your GitHub profile
