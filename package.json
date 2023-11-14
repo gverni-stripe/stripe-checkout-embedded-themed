@@ -1,0 +1,13 @@
+{
+  "name": "stripe-checkout-embedded-quickstart",
+  "version": "1.0.0",
+  "description": "A sample Stripe implementation for Stripe Checkout embedded",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "gverni",
+  "license": "ISC",
+  "dependencies": {
+    "stripe": "^13.0.0"
+  }
+}
