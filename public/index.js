@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", async () => {
   const { publishableKey } = await fetch("/.netlify/functions/config").then(
     (r) => r.json()
@@ -6,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     alert("Please set your Stripe publishable API key in the .env file");
   }
 
-  const stripe = Stripe(publishableKey, {
+  stripe = Stripe(publishableKey, {
     apiVersion: "2020-08-27",
   });
 
@@ -24,9 +26,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       clientSecret,
     });
 
-    // Hide Pricing Header & Pricing 
-    document.getElementByClassName('pricing-header').style.display = 'none';
-    document.getElementByClassName('pricing-plans').style.display = 'none';
+    // Hide Pricing Header & Pricing
+    document.getElementByClassName("pricing-header").style.display = "none";
+    document.getElementByClassName("pricing-plans").style.display = "none";
 
     // Mount Embedded Checkout
     checkout.mount("#checkout");
