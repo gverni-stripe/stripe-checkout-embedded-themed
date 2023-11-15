@@ -22,8 +22,7 @@ const lineItems = [
 exports.handler = async () => {
   const session = await stripe.checkout.sessions.create({
     ui_mode: "embedded",
-    line_items: lineItems,
-    mode: "payment",
+    mode: "setup",
     return_url: `${process.env.URL}/return.html?session_id={CHECKOUT_SESSION_ID}`,
   });
 
