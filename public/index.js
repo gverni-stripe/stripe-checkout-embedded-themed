@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
 
     // Hide Pricing Header & Pricing
-    document.getElementByClassName("pricing-header").style.display = "none";
-    document.getElementByClassName("pricing-plans").style.display = "none";
+    document.getElementsByClassName("pricing-header")[0].style.display = "none";
+    document.getElementsByClassName("pricing-plans")[0].style.display = "none";
 
     // Mount Embedded Checkout
     checkout.mount("#checkout");
