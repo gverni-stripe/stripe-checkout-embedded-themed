@@ -24,7 +24,7 @@ export default async function handler(request, response) {
     ui_mode: "embedded",
     line_items: lineItems,
     mode: "payment",
-    return_url: `/return.html?session_id={CHECKOUT_SESSION_ID}`,
+    return_url: `https://${process.env.VERCEL_URL}/return.html?session_id={CHECKOUT_SESSION_ID}`,
   });
 
   // res.send({ clientSecret: session.client_secret });
