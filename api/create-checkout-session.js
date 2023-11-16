@@ -19,7 +19,7 @@ const lineItems = [
   }
 ]
 
-exports.handler = async () => {
+export default async function handler(request, response) {
   const session = await stripe.checkout.sessions.create({
     ui_mode: "embedded",
     line_items: lineItems,
@@ -28,9 +28,5 @@ exports.handler = async () => {
   });
 
   // res.send({ clientSecret: session.client_secret });
-
-  return {
-    statusCode: 200,
-    body: JSON.stringify({ clientSecret: session.client_secret }),
-  };
+  return response.json({ clientSecret: session.client_secret })
 };

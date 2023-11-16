@@ -1,8 +1,5 @@
-exports.handler = async () => {
-    return {
-      statusCode: 200,
-      body: JSON.stringify({
-        publishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
-      })
-    };
-  };
+export default async function handler(request, response) {
+  return response.json({
+    publishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
+  })
+}
