@@ -1,14 +1,11 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1de6ca3d-44cd-4689-b7b4-c67a9f8cf936/deploy-status)](https://app.netlify.com/sites/stripe-checkout-embedded-themed/deploys)
 
-# Stripe Checkout Embedded form PoC (for Netlify)
-
-![image](https://github.com/gverni-stripe/stripe-checkout-embedded-themed/assets/95485729/3910f8e6-eb12-41c1-8b08-f218b95497f1)
+# Stripe Checkout Embedded form PoC (for Vercel)
 
 Demo available [here](https://stripe-checkout-embedded-themed.netlify.app/)
 
-To use this sample on Netlify from GitHub: 
+To use this sample on Vercel from GitHub: 
 * Clone the project into your GitHub profile
-* Go on your Netlify console and click "Add a new site"
+* Go on your Vercel console and click "Add a new site"
 * Click "Deploy with GitHub"
 * Select the repo you cloned
 * Set the following Build settings:
