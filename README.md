@@ -21,5 +21,5 @@ To use this sample on Netlify from GitHub:
   * `STRIPE_SECRET_KEY`: your stripe secret key
 * Click Deploy button
 
-
+This project is available for Vercel as well. To use that project, switch to [`vercel-deploy` branch](https://github.com/gverni-stripe/stripe-checkout-embedded-themed/tree/vercel-deploy)
 
