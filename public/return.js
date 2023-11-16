@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const urlParams = new URLSearchParams(queryString);
   const sessionId = urlParams.get("session_id");
   const response = await fetch(
-    `/.netlify/functions/session-status?session_id=${sessionId}`
+    `/api/session-status?session_id=${sessionId}`
   );
   const session = await response.json();
 

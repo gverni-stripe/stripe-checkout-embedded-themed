@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
   async function initialize() {
     const response = await fetch(
-      "/.netlify/functions/create-checkout-session",
+      "/api/create-checkout-session",
       {
         method: "POST",
       }
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     checkout.mount("#checkout");
   }
 
-  const { publishableKey } = await fetch("/.netlify/functions/config").then(
+  const { publishableKey } = await fetch("/api/config").then(
     (r) => r.json()
   );
   if (!publishableKey) {
