@@ -9,5 +9,8 @@
   "license": "ISC",
   "dependencies": {
     "stripe": "^13.0.0"
+  },
+  "devDependencies": {
+    "@compodoc/live-server": "^1.2.3"
   }
 }

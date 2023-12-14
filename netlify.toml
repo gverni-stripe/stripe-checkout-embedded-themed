@@ -1,0 +1,9 @@
+[dev]
+  command = "live-server --port=3000 --no-browser ./public/"
+  targetPort = 3000  
+
+[functions]
+  directory = "/netlify/functions/"
+
+[context.dev.environment]
+  NODE_ENV = "development"
