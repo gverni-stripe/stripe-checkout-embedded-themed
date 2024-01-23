@@ -1,10 +1,11 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1de6ca3d-44cd-4689-b7b4-c67a9f8cf936/deploy-status)](https://app.netlify.com/sites/stripe-checkout-embedded-themed/deploys)
 
-# Stripe Checkout Embedded form PoC (for Netlify)
+# Stripe Checkout Embedded form PoC - Setup Mode (for Netlify)
 
-![image](https://github.com/gverni-stripe/stripe-checkout-embedded-themed/assets/95485729/3910f8e6-eb12-41c1-8b08-f218b95497f1)
+![image](https://github.com/gverni-stripe/stripe-checkout-embedded-themed/assets/95485729/e765936f-74ee-4987-9f41-538df864f0ef)
 
-Demo available [here](https://stripe-checkout-embedded-themed.netlify.app/)
+
+Demo available [here](https://checkout-setup-mode--stripe-checkout-embedded-themed.netlify.app/checkout.html)
 
 To use this sample on Netlify from GitHub: 
 * Clone the project into your GitHub profile
@@ -20,6 +21,4 @@ To use this sample on Netlify from GitHub:
   * `STRIPE_PUBLISHABLE_KEY`: your Stripe publishable key
   * `STRIPE_SECRET_KEY`: your stripe secret key
 * Click Deploy button
-
-This project is available for Vercel as well. To use that project, switch to [`vercel-deploy` branch](https://github.com/gverni-stripe/stripe-checkout-embedded-themed/tree/vercel-deploy)
 
